@@ -17,4 +17,8 @@ describe("User", () => {
     let user = new User(30, 0, "");
     expect(Math.floor(user.calcMars())).toEqual(15);
   });
+  test("should return person's age in Jupiter years", () => {
+    let user = new User(30, 0, "");
+    expect(Math.floor(user.calcJupiter())).toEqual(2);
+  });
 })

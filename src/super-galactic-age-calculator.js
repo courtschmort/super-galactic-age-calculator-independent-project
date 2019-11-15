@@ -24,7 +24,8 @@ export class User {
 
   calcMars() {
     const daysMars = 687;
-    
+    let yearsMars = this.calcYearsToDays(this.daysOld) / daysMars;
+    return yearsMars;
   }
 
   calcJupiter() {

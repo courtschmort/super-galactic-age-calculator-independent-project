@@ -11,6 +11,10 @@ describe("User", () => {
   });
   test("should return person's age in Venus years", () => {
     let user = new User(30, 0, "");
-    expect(Math.floor(user.calcVanus())).toEqual(48);
+    expect(Math.floor(user.calcVenus())).toEqual(48);
+  });
+  test("should return person's age in Mars years", () => {
+    let user = new User(30, 0, "");
+    expect(Math.floor(user.calcMars())).toEqual(15);
   });
 })

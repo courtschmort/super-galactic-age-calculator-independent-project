@@ -18,12 +18,13 @@ export class User {
 
   calcVenus() {
     const daysVenus = 225;
-
+    let yearsVenus = this.calcYearsToDays(this.daysOld) / daysVenus;
+    return yearsVenus;
   }
 
   calcMars() {
     const daysMars = 687;
-
+    
   }
 
   calcJupiter() {

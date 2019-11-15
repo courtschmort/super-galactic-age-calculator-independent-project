@@ -7,62 +7,94 @@ export class Earthling {
   }
 
   daysOldFunc() {
-    const daysEarth = 365;
-    let daysOld = this.yearsOld * daysEarth;
+    const earthDaysInYear = 365;
+    let daysOld = this.yearsOld * earthDaysInYear;
     return this.daysOld += daysOld;
   }
 
   mercury() {
-    const daysMercury = 88;
-    let yearsMercury = this.daysOldFunc(this.daysOld) / daysMercury;
-    return yearsMercury;
+    const mercuryDaysInYear = 88;
+    let mercuryYears = this.daysOldFunc(this.daysOld) / mercuryDaysInYear;
+    return mercuryYears;
   }
 
   venus() {
-    const daysVenus = 225;
-    let yearsVenus = this.daysOldFunc(this.daysOld) / daysVenus;
-    return yearsVenus;
+    const venusDaysInYear = 225;
+    let venusYears = this.daysOldFunc(this.daysOld) / venusDaysInYear;
+    return venusYears;
   }
 
   mars() {
-    const daysMars = 687;
-    let yearsMars = this.daysOldFunc(this.daysOld) / daysMars;
-    return yearsMars;
+    const marsDaysInYear = 687;
+    let marsYears = this.daysOldFunc(this.daysOld) / marsDaysInYear;
+    return marsYears;
   }
 
   jupiter() {
-    const daysJupiter = 4380;
+    const jupiterDaysInYear = 4380;
     let yearsJupiter = this.daysOldFunc(this.daysOld) / daysJupiter;
     return yearsJupiter;
   }
 
   daysLifeExpFunc() {
-    const daysEarth = 365;
-    let daysLifeExp = this.yearsLifeExp * daysEarth;
+    const earthDaysInYear = 365;
+    let daysLifeExp = this.yearsLifeExp * earthDaysInYear;
     return this.daysLifeExp += daysLifeExp;
   }
 
+  earthRem() {
+    const earthDaysInYear = 365;
+    if (this.yearsOld < this.yearsLifeExp) {
+      let earthYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / earthDaysInYear) - (this.daysOldFunc(this.daysOld) / earthDaysInYear);
+      return earthYearsLeft;
+    } else {
+      let earthExtraYears = (this.daysOldFunc(this.daysOld) / earthDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / earthDaysInYear);
+      return earthExtraYears;
+    }
+  }
+
   mercuryRem() {
-    const daysMercury = 88;
-    let yearsMercuryRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysMercury) - (this.daysOldFunc(this.daysOld) / daysMercury);
-    return yearsMercuryRem;
+    const mercuryDaysInYear = 88;
+    if (this.yearsOld < this.yearsLifeExp) {
+      let mercuryYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / mercuryDaysInYear) - (this.daysOldFunc(this.daysOld) / mercuryDaysInYear);
+      return mercuryYearsLeft;
+    } else {
+      let mercuryExtraYears = (this.daysOldFunc(this.daysOld) / mercuryDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / mercuryDaysInYear);
+      return mercuryExtraYears;
+    }
   }
 
   venusRem() {
-    const daysVenus = 225;
-    let yearsVenusRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysVenus) - (this.daysOldFunc(this.daysOld) / daysVenus);
-    return yearsVenusRem;
+    const venusDaysInYear = 225;
+    if (this.yearsOld < this.yearsLifeExp) {
+      let venusYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / venusDaysInYear) - (this.daysOldFunc(this.daysOld) / venusDaysInYear);
+      return venusYearsLeft;
+    } else {
+      let venusExtraYears = (this.daysOldFunc(this.daysOld) / venusDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / venusDaysInYear);
+      return venusExtraYears;
+    }
   }
 
   marsRem() {
-    const daysMars = 687;
-    let yearsMarsRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysMars) - (this.daysOldFunc(this.daysOld) / daysMars);
-    return yearsMarsRem;
+    const marsDaysInYear = 687;
+    if (this.yearsOld < this.yearsLifeExp) {
+      let marsYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / marsDaysInYear) - (this.daysOldFunc(this.daysOld) / marsDaysInYear);
+      return marsYearsLeft;
+    } else {
+      let marsExtraYears = (this.daysOldFunc(this.daysOld) / marsDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / marsDaysInYear);
+      return marsExtraYears;
+    }
   }
 
   jupiterRem() {
-    // const daysJupiter = 687;
-    // let yearsJupiterRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysJupiter) - (this.daysOldFunc(this.daysOld) / daysJupiter);
-    // return yearsJupiterRem;
+    const jupiterDaysInYear = 4380;
+    if (this.yearsOld < this.yearsLifeExp) {
+      let jupiterYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / jupiterDaysInYear) - (this.daysOldFunc(this.daysOld) / jupiterDaysInYear);
+      return jupiterYearsLeft;
+    } else {
+      let jupiterExtraYears = (this.daysOldFunc(this.daysOld) / jupiterDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / jupiterDaysInYear);
+      return jupiterExtraYears;
+    }
   }
+
 }

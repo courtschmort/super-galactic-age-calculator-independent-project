@@ -42,17 +42,6 @@ export class Earthling {
     return this.daysLifeExp += daysLifeExp;
   }
 
-  earthRem() {
-    const earthDaysInYear = 365;
-    if (this.yearsOld < this.yearsLifeExp) {
-      let earthYearsLeft = (this.daysLifeExpFunc(this.daysLifeExp) / earthDaysInYear) - (this.daysOldFunc(this.daysOld) / earthDaysInYear);
-      return earthYearsLeft;
-    } else {
-      let earthExtraYears = (this.daysOldFunc(this.daysOld) / earthDaysInYear) - (this.daysLifeExpFunc(this.daysLifeExp) / earthDaysInYear);
-      return earthExtraYears;
-    }
-  }
-
   mercuryRem() {
     const mercuryDaysInYear = 88;
     if (this.yearsOld < this.yearsLifeExp) {

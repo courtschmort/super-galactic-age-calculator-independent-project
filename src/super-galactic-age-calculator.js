@@ -47,4 +47,10 @@ export class Earthling {
     let yearsMercuryRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysMercury) - (this.daysOldFunc(this.daysOld) / daysMercury);
     return yearsMercuryRem;
   }
+
+  venusRem() {
+    // const daysVenus = 225;
+    // let yearsVenusRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysVenus) - (this.daysOldFunc(this.daysOld) / daysVenus);
+    // return yearsVenusRem;
+  }
 }

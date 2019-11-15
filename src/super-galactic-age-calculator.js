@@ -1,12 +1,13 @@
 export class User {
-  constructor(age, avgLifeExp) {
-    this.age = age;
+  constructor(ageYears, ageDays, avgLifeExp) {
+    this.ageYears = ageYears;
+    this.ageDays = 0;
     this.avgLifeExp = avgLifeExp;
   }
 
   calcYearsToDays() {
-    let daysEarth = this.age * 365;
-    return daysEarth;
+    let daysEarth = this.ageYears * 365;
+    return this.ageDays += daysEarth;
   }
 
   calcMercury() {

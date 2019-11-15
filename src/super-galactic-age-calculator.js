@@ -1,18 +1,19 @@
 export class User {
-  constructor(ageYears, ageDays, avgLifeExp) {
-    this.ageYears = ageYears;
-    this.ageDays = 0;
+  constructor(yearsOld, daysOld, avgLifeExp) {
+    this.yearsOld = yearsOld;
+    this.daysOld = daysOld;
     this.avgLifeExp = avgLifeExp;
   }
 
   calcYearsToDays() {
-    let daysEarth = this.ageYears * 365;
-    return this.ageDays += daysEarth;
+    let daysOld = this.yearsOld * 365;
+    return this.daysOld += daysOld;
   }
 
   calcMercury() {
     const daysMercury = 88;
-
+    let yearsMercury = this.calcYearsToDays(this.daysOld) / daysMercury;
+    return yearsMercury;
   }
 
   calcVenus() {

@@ -8,7 +8,7 @@
 
 This is an application that determine's a user's age based on a planet's solar years.
 
-The following represent the number of days in each planet's year:
+The following are the number of days in each planet's year:
 * 88 Earth days in a Mercury year
 * 225 Earth days in a Venus year
 * 687 Earth days in a Mars year
@@ -35,11 +35,11 @@ The program will use the following calculation to determine how many years a use
 
 | Behavior (Our program should handle:) | Example Input (When it receives:) | Example Output (It should return:) |
 | ----------- | ----------- | ----------- |
-| The program should return a person's age in Earth days. | Age on Earth: 30 | Age (in days) on Earth: 10,950 |
-| The program should return a person's age in Mercury years. | Age on Earth: 30 | Age on Mercury: 124 |
-| The program should return a person's age in Venus years. | Age on Earth: 30 | Age on Venus: 48 |
-| The program should return a person's age in Mars years. | Age on Earth: 30 | Age on Mars: 15 |
-| The program should return a person's age in Jupiter years. | Age on Earth: 30 | Age on Jupiter: 2 |
+| The program should return a users's age in Earth days. | Age on Earth: 30 | Age (in days) on Earth: 10,950 |
+| The program should return a user's age in Mercury years. | Age on Earth: 30 | Age on Mercury: 124 |
+| The program should return a user's age in Venus years. | Age on Earth: 30 | Age on Venus: 48 |
+| The program should return a user's age in Mars years. | Age on Earth: 30 | Age on Mars: 15 |
+| The program should return a user's age in Jupiter years. | Age on Earth: 30 | Age on Jupiter: 2 |
 | The program should return how many years a user has left to live on Mercury. | Average life expectancy on Earth: 78 | Mercury days left to live: 199 |
 | The program should return how many years a user has left to live on Venus. | Average life expectancy on Earth: 78 | Venus days left to live: 77 |
 | The program should return how many years a user has left to live on Mars. | Average life expectancy on Earth: 78 | Mars days left to live: 25 |

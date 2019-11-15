@@ -21,4 +21,8 @@ describe("User", () => {
     let user = new User(30, 0, "");
     expect(Math.floor(user.calcJupiter())).toEqual(2);
   });
+  test("should return how many years a user has left to live on Mercury", () => {
+    let user = new User(30, 0, 78);
+    expect(Math.floor(user.calcJupiterRem())).toEqual(199);
+  });
 })

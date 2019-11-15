@@ -30,6 +30,7 @@ export class User {
 
   calcJupiter() {
     const daysJupiter = 4380;
-
+    let yearsJupiter = this.calcYearsToDays(this.daysOld) / daysJupiter;
+    return yearsJupiter;
   }
 }

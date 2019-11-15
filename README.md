@@ -35,6 +35,7 @@ The program will use the following calculation to determine how many years a use
 
 | Behavior (Our program should handle:) | Example Input (When it receives:) | Example Output (It should return:) |
 | ----------- | ----------- | ----------- |
+| The program should return a person's age in days. | Age on Earth: 30 | Age (in days) on Earth: 10,950 |
 | The program should return a person's age in Mercury years. | Age on Earth: 30 | Age on Mercury: 124 |
 | The program should return a person's age in Venus years. | Age on Earth: 30 | Age on Venus: 48 |
 | The program should return a person's age in Mars years. | Age on Earth: 30 | Age on Mars: 15 |

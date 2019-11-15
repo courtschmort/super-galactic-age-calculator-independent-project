@@ -5,12 +5,27 @@ export class User {
   }
 
   calcYearsToDays() {
-    let days = this.age * 365;
-    return days;
+    let daysEarth = this.age * 365;
+    return daysEarth;
   }
 
   calcMercury() {
-    const days = 88;
+    const daysMercury = 88;
+
+  }
+
+  calcVenus() {
+    const daysVenus = 225;
+
+  }
+
+  calcMars() {
+    const daysMars = 687;
+
+  }
+
+  calcJupiter() {
+    const daysJupiter = 4380;
 
   }
 }

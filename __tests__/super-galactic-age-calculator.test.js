@@ -25,8 +25,8 @@ describe("Earthling", () => {
     let earthling = new Earthling(30, 0, 78, 0);
     expect(Math.floor(earthling.mercuryRem())).toEqual(199);
   });
-  test("should return how many years a user has left to live on Venus", () => {
+  test("should return how many years a user has left to live on Mars", () => {
     let earthling = new Earthling(30, 0, 78, 0);
-    expect(Math.floor(earthling.venusRem())).toEqual(77);
+    expect(Math.floor(earthling.marsRem())).toEqual(25);
   });
 })

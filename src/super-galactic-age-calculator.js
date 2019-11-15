@@ -5,7 +5,7 @@ export class User {
   }
 
   calcYearsToDays() {
-
+    
   }
 
   calcMercury() {

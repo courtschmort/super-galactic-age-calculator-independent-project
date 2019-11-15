@@ -5,7 +5,8 @@ export class User {
   }
 
   calcYearsToDays() {
-    
+    let days = this.age * 365;
+    return days;
   }
 
   calcMercury() {

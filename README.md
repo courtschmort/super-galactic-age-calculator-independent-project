@@ -82,9 +82,8 @@ Find me on LinkedIn and GitHub:
 ## Product Roadmap
 
 In the future, I plan to include the following key features:
-* Key feature 1
-* Key feature 2
-* Key feature 3
+* UI
+* Input for birthdate rather than age
 
 ## Technologies Used
 
@@ -93,6 +92,7 @@ In the future, I plan to include the following key features:
 * Bootstrap
 * JavaScript
 * jQuery
+* markdown
 * Markdown
 
 ## License

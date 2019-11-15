@@ -55,8 +55,14 @@ export class Earthling {
   }
 
   marsRem() {
-    // const daysMars = 687;
-    // let yearsMarsRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysMars) - (this.daysOldFunc(this.daysOld) / daysMars);
-    // return yearsMarsRem;
+    const daysMars = 687;
+    let yearsMarsRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysMars) - (this.daysOldFunc(this.daysOld) / daysMars);
+    return yearsMarsRem;
+  }
+
+  jupiterRem() {
+    // const daysJupiter = 687;
+    // let yearsJupiterRem = (this.daysLifeExpFunc(this.daysLifeExp) / daysJupiter) - (this.daysOldFunc(this.daysOld) / daysJupiter);
+    // return yearsJupiterRem;
   }
 }

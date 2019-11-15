@@ -29,4 +29,8 @@ describe("Earthling", () => {
     let earthling = new Earthling(30, 0, 78, 0);
     expect(Math.floor(earthling.marsRem())).toEqual(25);
   });
+  test("should return how many years a user has left to live on Jupiter", () => {
+    let earthling = new Earthling(30, 0, 78, 0);
+    expect(Math.floor(earthling.jupiterRem())).toEqual(4);
+  });
 })

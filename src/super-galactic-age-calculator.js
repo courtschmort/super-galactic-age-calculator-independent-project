@@ -32,7 +32,7 @@ export class Earthling {
 
   jupiter() {
     const jupiterDaysInYear = 4380;
-    let yearsJupiter = this.daysOldFunc(this.daysOld) / daysJupiter;
+    let yearsJupiter = this.daysOldFunc(this.daysOld) / jupiterDaysInYear;
     return yearsJupiter;
   }
 

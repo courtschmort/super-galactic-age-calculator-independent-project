@@ -4,7 +4,7 @@ html, body {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-image: linear-gradient(#435A99, #222E50);
+  background-image: linear-gradient(#5E3AFF, #2A0DAA);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -19,13 +19,15 @@ h1, h2 {
 
 h1 {
   font-size: 6rem;
-  color: #849EE8;
+  color: white;
   margin-bottom: 3rem;
+  letter-spacing: .25rem;
+  text-shadow: .25rem .25rem #161032;
 }
 
 h2 {
   font-size: 3rem;
-  color: white;
+  color: #5E3AFF;
 }
 
 input {
@@ -34,6 +36,6 @@ input {
 }
 
 .btn-primary {
-  background-color: #849EE8;
-  border-color: #849EE8;
+  background-color: #5E3AFF;
+  border-color: #5E3AFF;
 }

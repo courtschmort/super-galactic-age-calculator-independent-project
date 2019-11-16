@@ -50,7 +50,7 @@ The program will use the following calculation to determine how many years a use
 
 This webpage may be viewed on any web browser and edited by following the instructions below to clone or download the repository to your computer.
 
-**Click [here](https://courtschmort.github.io/super-galactic-age-calculator-independent-project/) to open the GitHub Pages website.**
+<!-- **Click [here](https://courtschmort.github.io/super-galactic-age-calculator-independent-project/) to open the GitHub Pages website.** -->
 
 ###### From GitHub
 1. Click the **Clone or download** dropdown button.
@@ -92,7 +92,9 @@ In the future, I plan to include the following key features:
 * Bootstrap
 * JavaScript
 * jQuery
-* markdown
+* Jest
+* webpack
+* npm
 * Markdown
 
 ## License

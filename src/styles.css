@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(#435A99, #222E50);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #849EE8;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+input {
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #849EE8;
+  border-color: #849EE8;
+}
